@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detailsFrame"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/details_frame_height_size"
+    android:layout_weight="0">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:src="@drawable/details" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Doctor Name" />
+
+        <EditText
+            android:id="@+id/doctor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border_edittext"
+            android:ems="6"
+            android:singleLine="true"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="Speciality" />
+
+        <EditText
+            android:id="@+id/speciality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border_edittext"
+            android:singleLine="true"
+            android:ems="6"
+            android:padding="5dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:maxLines="1"
+            android:text="Location" />
+
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_border_edittext"
+            android:ems="6"
+            android:singleLine="true"
+            android:padding="5dp" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="@dimen/submit_btn_width_size"
+        android:layout_height="@dimen/submit_btn_height_size"
+        android:background="@drawable/butten_round"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/mov_bottom"
+        android:layout_marginLeft="@dimen/mov_left_margin"
+        android:text="SUBMIT"
+        android:textColor="@color/colorWhite"
+        android:textStyle="italic"
+        android:textSize="@dimen/submit_btn_text_size"
+        />
+</FrameLayout>

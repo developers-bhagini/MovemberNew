@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_doctor_details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.movember.ui.ShareActivity">
+
+    <FrameLayout
+        android:id="@+id/badge_layout"
+        android:layout_width="wrap_content"
+        android:layout_above="@+id/share_button"
+        android:layout_height="@dimen/details_frame_height_size"
+        >
+        <TextView
+            android:id="@+id/pledgetext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:text="@string/pledge_text_content"
+            android:background="#8FFF"
+            />
+
+        <ImageView
+            android:id="@+id/sharing_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/doctor_pledge_details_image" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:background="#6FFF"
+            android:layout_marginTop="80dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textColor="@color/light_blue"
+                android:textSize="@dimen/name_text_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textSize="@dimen/name_text_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </FrameLayout>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        logout_text="share on fb"
+        android:layout_width="@dimen/fb_button_width_size"
+        android:layout_height="@dimen/fb_button_height_size"
+        android:background="@drawable/round_button"
+        android:gravity="center"
+        android:text="@string/text_facebook_icon"
+        android:visibility="invisible"
+        android:layout_below="@+id/badge_layout"
+        android:layout_alignEnd="@+id/share_button"
+        android:layout_marginTop="@dimen/fb_login_btn_margin_top_size" />
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="@dimen/fb_btn_width_size"
+        android:layout_height="@dimen/fb_btn_height_size"
+        android:background="@drawable/round_button"
+        android:textColor="@color/colorWhite"
+        android:text="@string/fb_share_text"
+        android:textStyle="italic"
+        android:layout_marginBottom="@dimen/photo_btn_margin_bottom_size"
+        android:layout_above="@+id/optionButtons"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/optionButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true">
+
+    <Button
+        android:text="@string/upload_photo_text"
+        android:layout_width="@dimen/photo_btn_width_size"
+        android:layout_height="@dimen/photo_btn_height_size"
+        android:id="@+id/photo_chooser"
+        android:background="@drawable/butten_round"
+        android:textColor="@color/colorWhite"
+        android:textStyle="italic"
+        android:textSize="@dimen/photo_btn_text_size"
+        android:layout_marginEnd="@dimen/photo_btn_margin_bottom_size"
+        android:layout_marginBottom="@dimen/photo_btn_margin_bottom_size"
+        />
+
+        <Button
+            android:text="@string/comment_text"
+            android:layout_width="@dimen/photo_btn_width_size"
+            android:layout_height="@dimen/photo_btn_height_size"
+            android:id="@+id/comment_button"
+            android:background="@drawable/butten_round"
+            android:textColor="@color/colorWhite"
+            android:textStyle="italic"
+            android:textSize="@dimen/photo_btn_text_size"
+            android:layout_toEndOf="@+id/photo_chooser"
+            android:layout_marginBottom="@dimen/photo_btn_margin_bottom_size"
+            />
+</LinearLayout>
+
+
+</RelativeLayout>

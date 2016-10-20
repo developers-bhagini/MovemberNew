@@ -1,0 +1,24 @@
+<resources>
+     <dimen name="mov_bottom">10dp</dimen>
+     <dimen name="mov_left_margin">18dp</dimen>
+     <dimen name="pledge_yes_left_margin">60dp</dimen>
+     <dimen name="mov_img_with">275dp</dimen>
+     <dimen name="details_frame_height_size">400dp</dimen>
+     <dimen name="mov_img_hght">75dp</dimen>
+     <dimen name="pledge_button_margin_size">2dp</dimen>
+     <dimen name="pledge_button_height_size">60dp</dimen>
+     <dimen name="pledge_button_width_size">120dp</dimen>
+     <dimen name="pledge_yes_button_margin_size">40dp</dimen>
+     <dimen name="share_login">78dp</dimen>
+     <dimen name="action_bar_height_size">120dp</dimen>
+    <dimen name="submit_btn_height_size">65dp</dimen>
+    <dimen name="submit_btn_width_size">170dp</dimen>
+    <dimen name="submit_btn_text_size">35sp</dimen>
+    <dimen name="fb_btn_height_size">50dp</dimen>
+    <dimen name="fb_btn_width_size">160dp</dimen>
+    <dimen name="photo_btn_text_size">15sp</dimen>
+    <dimen name="photo_btn_height_size">45dp</dimen>
+    <dimen name="photo_btn_width_size">120dp</dimen>
+    <dimen name="photo_btn_margin_bottom_size">20dp</dimen>
+    <dimen name="fb_login_btn_margin_top_size">17dp</dimen>
+</resources>

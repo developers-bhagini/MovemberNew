@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="mov_bottom">12dp</dimen>
+    <dimen name="mov_img_with">230dp</dimen>
+    <dimen name="mov_img_hght">100dp</dimen>
+    <dimen name="mov_left_margin">22dp</dimen>
+    <dimen name="action_bar_height_size">120dp</dimen>
+</resources>

@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Movember</string>
+    <!--<string name="facebook_app_id">1140919859324022</string>-->
+    <string name="facebook_app_id">1288772767840562</string>
+    <string name="take_photo_text">Take Photo</string>
+    <string name="select_from_gallery_text">Select from gallery</string>
+    <string name="skip_text">Skip</string>
+    <string name="select_photo_dialog__title_text">Select Photo</string>
+    <string name="network_error_text">Check your internet connectivity</string>
+    <string name="facebook_not_installed_error_text">Install Facebook app to post</string>
+    <string name="text_facebook_icon">LOGIN TO FACEBOOK</string>
+    <string name="dr_text">Dr.</string>
+    <string name="in_progress_text">In Progress</string>
+    <string name="upload_photo_text">Upload photo</string>
+    <string name="comment_text">Comments</string>
+    <string name="fb_share_text">Share in FB</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="confirmation_title_message_text">Facebook post</string>
+    <string name="confirmation_dialog_message_text">Movember app wants to post MoPledge on Facebook Movember page</string>
+    <string name="yes_text">Confirm</string>
+    <string name="no_text">Cancel</string>
+    <string name="share_intimation_text">This app would like to post on Movember facebook page</string>
+    <string name="device_not_supported_text">Device not supported</string>
+    <string name="hint_for_fb_comment_text">Please write your comment</string>
+    <string name="pledge_text_content">I pledge to support Men\'s Health &amp; raise awareness among people/patients.This is my MoPledge</string>
+
+</resources>

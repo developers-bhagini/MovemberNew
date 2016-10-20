@@ -1,0 +1,8 @@
+<resources>
+
+    <dimen name="mov_bottom">10dp</dimen>
+    <dimen name="mov_img_with">230dp</dimen>
+    <dimen name="mov_img_hght">78dp</dimen>
+    <dimen name="share_login">20dp</dimen>
+
+</resources>

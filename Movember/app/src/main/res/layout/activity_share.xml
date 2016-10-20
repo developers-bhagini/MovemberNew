@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/fragment_doctor_details"
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/app_bg"
+                tools:context="com.app.movember.ui.ShareActivity">
+
+    <FrameLayout
+        android:id="@+id/badge_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/badge_without_detail">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textColor="@color/light_blue"
+                android:textSize="@dimen/name_text_size"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:textAlignment="center"
+                android:textSize="@dimen/name_text_size"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+        <com.facebook.share.widget.ShareButton
+            android:id="@+id/login_button"
+            android:layout_width="@dimen/fb_button_width_size"
+            android:layout_height="@dimen/fb_button_height_size"
+            android:text="@string/text_facebook_icon"
+            android:background="@drawable/round_button"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal|bottom" />
+    </FrameLayout>
+
+
+
+
+</RelativeLayout>
